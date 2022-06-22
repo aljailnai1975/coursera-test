@@ -21,6 +21,9 @@ a{
   background: white;
   font-weight: bold;
 }
+.navbar-header{
+    height: 100px;
+}
 .navbar-inverse .navbar-nav>li>a{
   color: black;
 }
@@ -123,39 +126,7 @@ a{
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
-
-/* FOOTER */
-.panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border-top: 0;
-}
-.panel-footer div.row {
-  margin-bottom: 35px;
-}
-#hours, #address {
-  line-height: 2;
-}
-#hours > span, #address > span {
-  font-size: 1.3em;
-}
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
-}
-#testimonials {
-  font-style: italic;
-}
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
-/* END FOOTER */
-
-
+/* END HEADER*/
 
 /* HOME PAGE */
 .container1 {
@@ -230,6 +201,13 @@ a{
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #myNavbar {
+    height: 679px;
+  }
+  /* End Home Page */
+}
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Food LLC */
