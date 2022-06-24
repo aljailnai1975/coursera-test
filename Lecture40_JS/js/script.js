@@ -322,7 +322,9 @@
 // var doubleAll = makeMultiplier(2);
 // console.log(doubleAll(10)); // its own exec env
 
+
 // //Lecture 52
+
 // //-----------------------app.js
 // yaakovGreeter.sayHello();
 // johnGreeter.sayHi();
